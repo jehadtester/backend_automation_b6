@@ -34,5 +34,6 @@ public class DatabaseConnection {
 
         while(resultSet.next())
             System.out.println(resultSet.getString("FIRST_NAME"));
+            System.out.println(resultSet.getString(8));
     }
 }
